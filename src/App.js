@@ -214,14 +214,8 @@ function SideNav() {
       >
         <FaHome />
       </a>
-      <a
-        href="#projects"
-        style={getIconStyle(1)}
-        onMouseEnter={() => setHoveredIndex(1)}
-        onMouseLeave={() => setHoveredIndex(null)}
-      >
-        <FaProjectDiagram />
-      </a>
+
+
       <a
         href="#about"
         style={getIconStyle(2)}
@@ -229,6 +223,15 @@ function SideNav() {
         onMouseLeave={() => setHoveredIndex(null)}
       >
         <FaUserAlt />
+      </a>
+
+      <a
+        href="#projects"
+        style={getIconStyle(1)}
+        onMouseEnter={() => setHoveredIndex(1)}
+        onMouseLeave={() => setHoveredIndex(null)}
+      >
+        <FaProjectDiagram />
       </a>
     </nav>
   );
