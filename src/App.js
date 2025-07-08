@@ -8,12 +8,14 @@ import { FaHome, FaUserAlt, FaProjectDiagram } from 'react-icons/fa';
   function App() {
   return (
     <div style={{
-      minHeight: '300vh',
-      background: 'linear-gradient(to bottom right,rgb(3, 3, 98), #1E90FF)',
-      color: 'white',
-    }}>
+  minHeight: '300vh',
+  background: 'linear-gradient(...)',
+  color: 'white',
+  width: '100vw',       
+  overflowX: 'hidden',  
+}}>
 
-  <div style={{
+  <div className="side-nav-bar" style={{
   position: 'fixed',
   top: 0,
   left: 0,
