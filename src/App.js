@@ -9,7 +9,7 @@ import { FaHome, FaUserAlt, FaProjectDiagram } from 'react-icons/fa';
   return (
     <div style={{
   minHeight: '300vh',
-  background: 'linear-gradient(...)',
+  background: 'linear-gradient(to bottom right,rbg(3,3,98), #1E90FF)',
   color: 'white',
   width: '100vw',       
   overflowX: 'hidden',  
@@ -107,29 +107,36 @@ import { FaHome, FaUserAlt, FaProjectDiagram } from 'react-icons/fa';
   id="about"
   style={{
     display: 'flex',
+    flexWrap: 'wrap',
     alignItems: 'center',
-    padding: '14rem 20rem 20rem',
-  }}>
-<img
-  alt=''
-  src="https://raw.githubusercontent.com/ColtjoWood/Images/refs/heads/main/texas-tech-logo-double-t-2.png"
-  style={{
-    width: '300px',
-    height: '300px',
-    borderRadius: '1%',
-    marginRight: '3rem',
-    objectFit: 'cover',
+    justifyContent: 'center',
+    padding: '6rem 2rem',
+    background: 'transparent', 
+    color: 'white',
   }}
-/>
-<div style={{ maxWidth: '600px' }}>
+>
+  <img
+    alt="Texas Tech Double T"
+    src="https://raw.githubusercontent.com/ColtjoWood/Images/refs/heads/main/texas-tech-logo-double-t-2.png"
+    style={{
+      width: '250px',
+      height: '250px',
+      borderRadius: '1%',
+      marginBottom: '2rem',
+      marginRight: '2rem',
+      objectFit: 'cover',
+    }}
+  />
+  <div style={{ maxWidth: '600px' }}>
     <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>About Me</h2>
     <p style={{ fontSize: '1.1rem' }}>
       I’m a senior Computer Science student at Texas Tech University, passionate about building clean, efficient, and user-focused applications.<br /><br />
-  I enjoy solving problems through code and have experience with full-stack development, focusing mostly on React, C++, and Java.<br /><br />
-  Right now, I’m focused on growing my development skills and working toward a career in software engineering.
+      I enjoy solving problems through code and have experience with full-stack development, focusing mostly on React, C++, and Java.<br /><br />
+      Right now, I’m focused on growing my development skills and working toward a career in software engineering.
     </p>
   </div>
-  </section> 
+</section>
+
 
 
 
