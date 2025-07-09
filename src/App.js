@@ -13,6 +13,8 @@ import { FaHome, FaUserAlt, FaProjectDiagram } from 'react-icons/fa';
   color: 'white',
   width: '100vw',       
   overflowX: 'hidden',  
+  overflowY: 'scroll',
+  scrollSnapType: 'y mandatory'
 }}>
 
   <div className="side-nav-bar" style={{
@@ -106,6 +108,7 @@ import { FaHome, FaUserAlt, FaProjectDiagram } from 'react-icons/fa';
 <section
   id="about"
   style={{
+    height: '100vh',
     display: 'flex',
     flexWrap: 'wrap',
     alignItems: 'center',
@@ -143,6 +146,7 @@ import { FaHome, FaUserAlt, FaProjectDiagram } from 'react-icons/fa';
 <section
   id="projects"
   style={{
+    height: '100vh',
     padding: '12rem 2rem',
     
   }}
